@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test" verbose="1">
+    <test name="Test1">
+        <classes>
+            <class name="com.demoqa.tests.forms.StudentFormsTest">
+                    <parameter name="firstName" value="Hans"></parameter>
+                    <parameter name="lastName" value="Mustermann"></parameter>
+                    <parameter name="email" value="hans@gm.com"></parameter>
+                    <parameter name="phone" value="1234567890"></parameter>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
